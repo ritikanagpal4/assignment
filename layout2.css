@@ -8,12 +8,15 @@
    display:none;
   }
   .buttonpad{
-margin:5px;
+   margin:5px;
   }
  #menu-toggle
   {
    display:none;
   }
+
+
+ 
  .link_1
   {
    margin-left:90px;
@@ -422,3 +425,45 @@ margin:5px;
     margin-left:0px;
    }
  }
+
+   
+.labelpadding{
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 7%;
+}
+body {
+    padding-top: 70px; 
+}
+
+footer {
+    margin: 50px 0;
+    padding-left:15px;
+}
+@media (max-width: 340px) {
+
+  .labelpadding {
+    padding-left: 14%;
+    padding-right: 12%;
+}
+@media (max-width: 500px) {
+
+  .labelpadding {
+    padding-left: 15%;
+    padding-right: 13%;
+}
+ .col-xs-6{
+    width:100%;
+  }
+  }
+  @media (max-width: 190px) {
+    .jumbotron{
+      width: 150%
+    }
+  .labelpadding {
+    padding-left: 10%;
+    padding-right: 8%;
+}
+  }
+  
